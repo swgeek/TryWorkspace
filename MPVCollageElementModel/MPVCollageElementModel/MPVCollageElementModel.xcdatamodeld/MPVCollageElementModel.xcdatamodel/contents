@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MPVCollageElementModel" representedClassName="MPVCollageElementModel" syncable="YES">
+        <attribute name="borderColorData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="borderWidth" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="colorData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imageFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageScale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imageX" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imageY" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="opacity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="thumbnailFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnailScale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="collage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MPVCollageModel" inverseName="elements" inverseEntity="MPVCollageModel" syncable="YES"/>
+    </entity>
+    <entity name="MPVCollageModel" representedClassName="MPVCollageModel" syncable="YES">
+        <attribute name="backgroundColorData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="globalBorderColorData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="globalBorderHeight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="globalBorderWidth" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="elements" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MPVCollageElementModel" inverseName="collage" inverseEntity="MPVCollageElementModel" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MPVCollageElementModel" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="MPVCollageModel" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

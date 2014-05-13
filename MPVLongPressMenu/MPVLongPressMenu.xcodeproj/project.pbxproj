@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C08D057186B56E200F9EB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C08D056186B56E200F9EB5E /* Foundation.framework */; };
+		0C08D05C186B56E200F9EB5E /* MPVLongPressMenu.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C08D05B186B56E200F9EB5E /* MPVLongPressMenu.h */; };
+		0C08D05E186B56E200F9EB5E /* MPVLongPressMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C08D05D186B56E200F9EB5E /* MPVLongPressMenu.m */; };
+		0C08D065186B56E200F9EB5E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C08D064186B56E200F9EB5E /* XCTest.framework */; };
+		0C08D066186B56E200F9EB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C08D056186B56E200F9EB5E /* Foundation.framework */; };
+		0C08D068186B56E200F9EB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C08D067186B56E200F9EB5E /* UIKit.framework */; };
+		0C08D06B186B56E200F9EB5E /* libMPVLongPressMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C08D053186B56E200F9EB5E /* libMPVLongPressMenu.a */; };
+		0C08D071186B56E200F9EB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C08D06F186B56E200F9EB5E /* InfoPlist.strings */; };
+		0C08D073186B56E200F9EB5E /* MPVLongPressMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C08D072186B56E200F9EB5E /* MPVLongPressMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C08D069186B56E200F9EB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C08D04B186B56E200F9EB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C08D052186B56E200F9EB5E;
+			remoteInfo = MPVLongPressMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C08D051186B56E200F9EB5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0C08D05C186B56E200F9EB5E /* MPVLongPressMenu.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C08D053186B56E200F9EB5E /* libMPVLongPressMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMPVLongPressMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C08D056186B56E200F9EB5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C08D05A186B56E200F9EB5E /* MPVLongPressMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPVLongPressMenu-Prefix.pch"; sourceTree = "<group>"; };
+		0C08D05B186B56E200F9EB5E /* MPVLongPressMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPVLongPressMenu.h; sourceTree = "<group>"; };
+		0C08D05D186B56E200F9EB5E /* MPVLongPressMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVLongPressMenu.m; sourceTree = "<group>"; };
+		0C08D063186B56E200F9EB5E /* MPVLongPressMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPVLongPressMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C08D064186B56E200F9EB5E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0C08D067186B56E200F9EB5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0C08D06E186B56E200F9EB5E /* MPVLongPressMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPVLongPressMenuTests-Info.plist"; sourceTree = "<group>"; };
+		0C08D070186B56E200F9EB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C08D072186B56E200F9EB5E /* MPVLongPressMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVLongPressMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C08D050186B56E200F9EB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D057186B56E200F9EB5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D060186B56E200F9EB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D06B186B56E200F9EB5E /* libMPVLongPressMenu.a in Frameworks */,
+				0C08D065186B56E200F9EB5E /* XCTest.framework in Frameworks */,
+				0C08D068186B56E200F9EB5E /* UIKit.framework in Frameworks */,
+				0C08D066186B56E200F9EB5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C08D04A186B56E200F9EB5E = {
+			isa = PBXGroup;
+			children = (
+				0C08D058186B56E200F9EB5E /* MPVLongPressMenu */,
+				0C08D06C186B56E200F9EB5E /* MPVLongPressMenuTests */,
+				0C08D055186B56E200F9EB5E /* Frameworks */,
+				0C08D054186B56E200F9EB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C08D054186B56E200F9EB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D053186B56E200F9EB5E /* libMPVLongPressMenu.a */,
+				0C08D063186B56E200F9EB5E /* MPVLongPressMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C08D055186B56E200F9EB5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D056186B56E200F9EB5E /* Foundation.framework */,
+				0C08D064186B56E200F9EB5E /* XCTest.framework */,
+				0C08D067186B56E200F9EB5E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C08D058186B56E200F9EB5E /* MPVLongPressMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D05B186B56E200F9EB5E /* MPVLongPressMenu.h */,
+				0C08D05D186B56E200F9EB5E /* MPVLongPressMenu.m */,
+				0C08D059186B56E200F9EB5E /* Supporting Files */,
+			);
+			path = MPVLongPressMenu;
+			sourceTree = "<group>";
+		};
+		0C08D059186B56E200F9EB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D05A186B56E200F9EB5E /* MPVLongPressMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C08D06C186B56E200F9EB5E /* MPVLongPressMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D072186B56E200F9EB5E /* MPVLongPressMenuTests.m */,
+				0C08D06D186B56E200F9EB5E /* Supporting Files */,
+			);
+			path = MPVLongPressMenuTests;
+			sourceTree = "<group>";
+		};
+		0C08D06D186B56E200F9EB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C08D06E186B56E200F9EB5E /* MPVLongPressMenuTests-Info.plist */,
+				0C08D06F186B56E200F9EB5E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C08D052186B56E200F9EB5E /* MPVLongPressMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C08D076186B56E200F9EB5E /* Build configuration list for PBXNativeTarget "MPVLongPressMenu" */;
+			buildPhases = (
+				0C08D04F186B56E200F9EB5E /* Sources */,
+				0C08D050186B56E200F9EB5E /* Frameworks */,
+				0C08D051186B56E200F9EB5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPVLongPressMenu;
+			productName = MPVLongPressMenu;
+			productReference = 0C08D053186B56E200F9EB5E /* libMPVLongPressMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0C08D062186B56E200F9EB5E /* MPVLongPressMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C08D079186B56E200F9EB5E /* Build configuration list for PBXNativeTarget "MPVLongPressMenuTests" */;
+			buildPhases = (
+				0C08D05F186B56E200F9EB5E /* Sources */,
+				0C08D060186B56E200F9EB5E /* Frameworks */,
+				0C08D061186B56E200F9EB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C08D06A186B56E200F9EB5E /* PBXTargetDependency */,
+			);
+			name = MPVLongPressMenuTests;
+			productName = MPVLongPressMenuTests;
+			productReference = 0C08D063186B56E200F9EB5E /* MPVLongPressMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C08D04B186B56E200F9EB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Manoj Patel";
+			};
+			buildConfigurationList = 0C08D04E186B56E200F9EB5E /* Build configuration list for PBXProject "MPVLongPressMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C08D04A186B56E200F9EB5E;
+			productRefGroup = 0C08D054186B56E200F9EB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C08D052186B56E200F9EB5E /* MPVLongPressMenu */,
+				0C08D062186B56E200F9EB5E /* MPVLongPressMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C08D061186B56E200F9EB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D071186B56E200F9EB5E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C08D04F186B56E200F9EB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D05E186B56E200F9EB5E /* MPVLongPressMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C08D05F186B56E200F9EB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C08D073186B56E200F9EB5E /* MPVLongPressMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C08D06A186B56E200F9EB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C08D052186B56E200F9EB5E /* MPVLongPressMenu */;
+			targetProxy = 0C08D069186B56E200F9EB5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C08D06F186B56E200F9EB5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C08D070186B56E200F9EB5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C08D074186B56E200F9EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C08D075186B56E200F9EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C08D077186B56E200F9EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MPVLongPressMenu.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVLongPressMenu/MPVLongPressMenu-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../**";
+			};
+			name = Debug;
+		};
+		0C08D078186B56E200F9EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MPVLongPressMenu.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVLongPressMenu/MPVLongPressMenu-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../**";
+			};
+			name = Release;
+		};
+		0C08D07A186B56E200F9EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVLongPressMenu/MPVLongPressMenu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MPVLongPressMenuTests/MPVLongPressMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0C08D07B186B56E200F9EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVLongPressMenu/MPVLongPressMenu-Prefix.pch";
+				INFOPLIST_FILE = "MPVLongPressMenuTests/MPVLongPressMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C08D04E186B56E200F9EB5E /* Build configuration list for PBXProject "MPVLongPressMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D074186B56E200F9EB5E /* Debug */,
+				0C08D075186B56E200F9EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C08D076186B56E200F9EB5E /* Build configuration list for PBXNativeTarget "MPVLongPressMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D077186B56E200F9EB5E /* Debug */,
+				0C08D078186B56E200F9EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C08D079186B56E200F9EB5E /* Build configuration list for PBXNativeTarget "MPVLongPressMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C08D07A186B56E200F9EB5E /* Debug */,
+				0C08D07B186B56E200F9EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C08D04B186B56E200F9EB5E /* Project object */;
+}

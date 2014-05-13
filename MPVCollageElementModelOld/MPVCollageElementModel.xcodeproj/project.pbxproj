@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC2142C186C83FA0066E31D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC2142B186C83FA0066E31D /* Foundation.framework */; };
+		0CC2143A186C83FA0066E31D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC21439186C83FA0066E31D /* XCTest.framework */; };
+		0CC2143B186C83FA0066E31D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC2142B186C83FA0066E31D /* Foundation.framework */; };
+		0CC2143D186C83FA0066E31D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC2143C186C83FA0066E31D /* UIKit.framework */; };
+		0CC21440186C83FA0066E31D /* libMPVCollageElementModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC21428186C83FA0066E31D /* libMPVCollageElementModel.a */; };
+		0CC21446186C83FA0066E31D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CC21444186C83FA0066E31D /* InfoPlist.strings */; };
+		0CC21448186C83FA0066E31D /* MPVCollageElementModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC21447186C83FA0066E31D /* MPVCollageElementModelTests.m */; };
+		0CC214CD186CD8790066E31D /* ElementModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 0CC214C6186CD8790066E31D /* ElementModel.xcdatamodel */; };
+		0CC214CE186CD8790066E31D /* CollageElementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC214C8186CD8790066E31D /* CollageElementModel.m */; };
+		0CC214CF186CD8790066E31D /* MPVCollageElementModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC214CA186CD8790066E31D /* MPVCollageElementModelHelper.m */; };
+		0CC214D0186CD8790066E31D /* CollageElementModel+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC214CC186CD8790066E31D /* CollageElementModel+Convenience.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CC2143E186C83FA0066E31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CC21420186C83FA0066E31D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CC21427186C83FA0066E31D;
+			remoteInfo = MPVCollageElementModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CC21426186C83FA0066E31D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CC21428186C83FA0066E31D /* libMPVCollageElementModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMPVCollageElementModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC2142B186C83FA0066E31D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CC2142F186C83FA0066E31D /* MPVCollageElementModel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPVCollageElementModel-Prefix.pch"; sourceTree = "<group>"; };
+		0CC21438186C83FA0066E31D /* MPVCollageElementModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPVCollageElementModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC21439186C83FA0066E31D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0CC2143C186C83FA0066E31D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0CC21443186C83FA0066E31D /* MPVCollageElementModelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPVCollageElementModelTests-Info.plist"; sourceTree = "<group>"; };
+		0CC21445186C83FA0066E31D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CC21447186C83FA0066E31D /* MPVCollageElementModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVCollageElementModelTests.m; sourceTree = "<group>"; };
+		0CC214C6186CD8790066E31D /* ElementModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElementModel.xcdatamodel; sourceTree = "<group>"; };
+		0CC214C7186CD8790066E31D /* CollageElementModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollageElementModel.h; sourceTree = "<group>"; };
+		0CC214C8186CD8790066E31D /* CollageElementModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollageElementModel.m; sourceTree = "<group>"; };
+		0CC214C9186CD8790066E31D /* MPVCollageElementModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPVCollageElementModelHelper.h; sourceTree = "<group>"; };
+		0CC214CA186CD8790066E31D /* MPVCollageElementModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPVCollageElementModelHelper.m; sourceTree = "<group>"; };
+		0CC214CB186CD8790066E31D /* CollageElementModel+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollageElementModel+Convenience.h"; sourceTree = "<group>"; };
+		0CC214CC186CD8790066E31D /* CollageElementModel+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CollageElementModel+Convenience.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC21425186C83FA0066E31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC2142C186C83FA0066E31D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC21435186C83FA0066E31D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC2143A186C83FA0066E31D /* XCTest.framework in Frameworks */,
+				0CC2143D186C83FA0066E31D /* UIKit.framework in Frameworks */,
+				0CC21440186C83FA0066E31D /* libMPVCollageElementModel.a in Frameworks */,
+				0CC2143B186C83FA0066E31D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC2141F186C83FA0066E31D = {
+			isa = PBXGroup;
+			children = (
+				0CC2142D186C83FA0066E31D /* MPVCollageElementModel */,
+				0CC21441186C83FA0066E31D /* MPVCollageElementModelTests */,
+				0CC2142A186C83FA0066E31D /* Frameworks */,
+				0CC21429186C83FA0066E31D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC21429186C83FA0066E31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CC21428186C83FA0066E31D /* libMPVCollageElementModel.a */,
+				0CC21438186C83FA0066E31D /* MPVCollageElementModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC2142A186C83FA0066E31D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC2142B186C83FA0066E31D /* Foundation.framework */,
+				0CC21439186C83FA0066E31D /* XCTest.framework */,
+				0CC2143C186C83FA0066E31D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC2142D186C83FA0066E31D /* MPVCollageElementModel */ = {
+			isa = PBXGroup;
+			children = (
+				0CC214C6186CD8790066E31D /* ElementModel.xcdatamodel */,
+				0CC214C7186CD8790066E31D /* CollageElementModel.h */,
+				0CC214C8186CD8790066E31D /* CollageElementModel.m */,
+				0CC214C9186CD8790066E31D /* MPVCollageElementModelHelper.h */,
+				0CC214CA186CD8790066E31D /* MPVCollageElementModelHelper.m */,
+				0CC214CB186CD8790066E31D /* CollageElementModel+Convenience.h */,
+				0CC214CC186CD8790066E31D /* CollageElementModel+Convenience.m */,
+				0CC2142E186C83FA0066E31D /* Supporting Files */,
+			);
+			path = MPVCollageElementModel;
+			sourceTree = "<group>";
+		};
+		0CC2142E186C83FA0066E31D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC2142F186C83FA0066E31D /* MPVCollageElementModel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC21441186C83FA0066E31D /* MPVCollageElementModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC21447186C83FA0066E31D /* MPVCollageElementModelTests.m */,
+				0CC21442186C83FA0066E31D /* Supporting Files */,
+			);
+			path = MPVCollageElementModelTests;
+			sourceTree = "<group>";
+		};
+		0CC21442186C83FA0066E31D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC21443186C83FA0066E31D /* MPVCollageElementModelTests-Info.plist */,
+				0CC21444186C83FA0066E31D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CC21427186C83FA0066E31D /* MPVCollageElementModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC2144B186C83FA0066E31D /* Build configuration list for PBXNativeTarget "MPVCollageElementModel" */;
+			buildPhases = (
+				0CC21424186C83FA0066E31D /* Sources */,
+				0CC21425186C83FA0066E31D /* Frameworks */,
+				0CC21426186C83FA0066E31D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPVCollageElementModel;
+			productName = MPVCollageElementModel;
+			productReference = 0CC21428186C83FA0066E31D /* libMPVCollageElementModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0CC21437186C83FA0066E31D /* MPVCollageElementModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC2144E186C83FA0066E31D /* Build configuration list for PBXNativeTarget "MPVCollageElementModelTests" */;
+			buildPhases = (
+				0CC21434186C83FA0066E31D /* Sources */,
+				0CC21435186C83FA0066E31D /* Frameworks */,
+				0CC21436186C83FA0066E31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC2143F186C83FA0066E31D /* PBXTargetDependency */,
+			);
+			name = MPVCollageElementModelTests;
+			productName = MPVCollageElementModelTests;
+			productReference = 0CC21438186C83FA0066E31D /* MPVCollageElementModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC21420186C83FA0066E31D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Manoj Patel";
+			};
+			buildConfigurationList = 0CC21423186C83FA0066E31D /* Build configuration list for PBXProject "MPVCollageElementModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CC2141F186C83FA0066E31D;
+			productRefGroup = 0CC21429186C83FA0066E31D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC21427186C83FA0066E31D /* MPVCollageElementModel */,
+				0CC21437186C83FA0066E31D /* MPVCollageElementModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CC21436186C83FA0066E31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC21446186C83FA0066E31D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC21424186C83FA0066E31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC214CF186CD8790066E31D /* MPVCollageElementModelHelper.m in Sources */,
+				0CC214CE186CD8790066E31D /* CollageElementModel.m in Sources */,
+				0CC214D0186CD8790066E31D /* CollageElementModel+Convenience.m in Sources */,
+				0CC214CD186CD8790066E31D /* ElementModel.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CC21434186C83FA0066E31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC21448186C83FA0066E31D /* MPVCollageElementModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC2143F186C83FA0066E31D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CC21427186C83FA0066E31D /* MPVCollageElementModel */;
+			targetProxy = 0CC2143E186C83FA0066E31D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CC21444186C83FA0066E31D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CC21445186C83FA0066E31D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CC21449186C83FA0066E31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../**";
+			};
+			name = Debug;
+		};
+		0CC2144A186C83FA0066E31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CC2144C186C83FA0066E31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MPVCollageElementModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVCollageElementModel/MPVCollageElementModel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0CC2144D186C83FA0066E31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MPVCollageElementModel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVCollageElementModel/MPVCollageElementModel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0CC2144F186C83FA0066E31D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVCollageElementModel/MPVCollageElementModel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MPVCollageElementModelTests/MPVCollageElementModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0CC21450186C83FA0066E31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPVCollageElementModel/MPVCollageElementModel-Prefix.pch";
+				INFOPLIST_FILE = "MPVCollageElementModelTests/MPVCollageElementModelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC21423186C83FA0066E31D /* Build configuration list for PBXProject "MPVCollageElementModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC21449186C83FA0066E31D /* Debug */,
+				0CC2144A186C83FA0066E31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC2144B186C83FA0066E31D /* Build configuration list for PBXNativeTarget "MPVCollageElementModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC2144C186C83FA0066E31D /* Debug */,
+				0CC2144D186C83FA0066E31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC2144E186C83FA0066E31D /* Build configuration list for PBXNativeTarget "MPVCollageElementModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC2144F186C83FA0066E31D /* Debug */,
+				0CC21450186C83FA0066E31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC21420186C83FA0066E31D /* Project object */;
+}

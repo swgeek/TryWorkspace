@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CollageElementModel" representedClassName="CollageElementModel" syncable="YES">
+        <attribute name="borderColorData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="borderWidth" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="colorData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="height" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="imageScale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imageX" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imageY" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="opacity" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="thumbnailData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="thumbnailScale" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="width" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="x" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="y" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CollageElementModel" positionX="-2594" positionY="3168" width="128" height="253"/>
+    </elements>
+</model>
